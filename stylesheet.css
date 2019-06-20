@@ -1,0 +1,214 @@
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration:none;
+}
+
+html, body,ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, input, div,input,textarea,a{
+  margin: 0;
+  padding: 0;
+}
+
+*{box-sizing: border-box;}
+
+.clear{
+  clear: both;
+}
+
+body{
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+/*  header  */
+header{
+  background-color: rgba(38, 208, 201, 0.9);
+  height:90px;
+ width:100%;
+  color:white;
+  position: fixed;
+  top:0;
+}
+
+header .logo{
+  font-size: 36px;
+  padding:20px 40px;
+  float: left;
+}
+
+header a{
+  color: white;
+  font-size: 16px;
+  float: left;
+  padding:33px 20px;
+}
+
+header a:hover{
+  color:blue;
+}
+
+header .fa-bars{
+  font-size: 50px;
+  line-height: 90px;
+  padding-right: 5%;
+  float: right;
+  display: none;
+}
+
+
+/*PAGE-TITLE*/
+.page-title{
+  padding:100px 0 50px 0;
+  padding-left: 3%;
+}
+
+.page-title h1{
+  font-size: 140px;
+  color:black;
+}
+
+.page-title span{
+  color:orange;
+}
+
+.page-title h2{
+  font-size: 40px;
+  color:black;
+}
+
+/*main-page*/
+.main-page{
+  padding-left: 3%;
+  margin-bottom: 100px;
+}
+
+.main-page h3{
+  font-size:28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.contents .icon{
+  display: block;
+  width:80%;
+}
+
+.main-page .contents{
+  float:left;
+  width: 20%;
+  padding-right: 20px;
+}
+.contents p{
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+/*contact*/
+.contact{
+  margin-left: 3%;
+}
+
+.contact h3{
+  font-size:28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.contact p{
+  font-size: 16px;
+}
+.contact span{
+  color:red;
+}
+
+.contact input, .contact textarea{
+  border: 1px solid #dee7ec;
+  margin: 10px 0 30px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+.contact .btn{
+  border-radius: 4px;
+  background-color: #dee7ec;
+  color: #889eab;
+  box-shadow: 0 7px #889eab;
+  margin-bottom:90px;
+  cursor: pointer;
+}
+.contact .btn:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn-wrapper{
+  margin-bottom: 50px;
+}
+
+.btn-wrapper .btn-sns{
+  font-family: "Font Awesome 5 Brands";
+  color:white;
+  font-size: 20px;
+  padding: 5px 40px;
+  border-radius: 4px;
+}
+
+.btn-wrapper .facebook{
+  background-color: rgba(59, 89, 152,0.7);
+  margin-right: 20px;
+}
+.twitter{
+  background-color: rgba(85, 172, 238,0.7);
+}
+
+.btn-wrapper .fab{
+  padding-right: 10px;
+}
+
+.btn-wrapper .facebook:hover{
+  background-color: rgba(59, 89, 152,1)
+}
+
+.btn-wrapper .twitter:hover{
+  background-color: rgba(85, 172, 238,1);
+}
+
+/*footer*/
+footer{
+  background-color: #2f5167;
+  height:160px;
+  color: white;
+  padding: 25px;
+}
+
+footer .container{
+  width: 100%;
+}
+
+.footer-logo{
+  float: left;
+}
+
+.footer-logo h3{
+  font-size: 32px;
+}
+
+.footer-list{
+  float: right;
+}
+
+.footer-list a{
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer-list a:hover{
+  color:blue;
+}
