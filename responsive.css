@@ -1,0 +1,49 @@
+@media all and  (max-width:1000px) {
+
+  .main-page .contents{
+    width: 44%;
+
+.page-title h1{
+  font-size: 100px;
+  color:blue;
+}
+
+}
+
+
+/*スマホ向け*/
+@media all and  (max-width:670px) {
+  .page-title h1{
+    font-size: 80px;
+    color:red;
+  }
+  .page-title h2{
+    font-size: 20px;
+  }
+  .main-page h3, .contact h3{
+    font-size: 23px;
+  }
+
+  .contact input, .contact textarea, .btn-wrapper .btn-sns{
+    width: 97%;
+  }
+  .btn-wrapper .btn-sns{
+    display: block;
+  }
+  .btn-wrapper .facebook{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+header a{
+  display: none;
+}
+header .fa-bars{
+    display: block;
+  }
+
+  .main-page .contents{
+    width: 97%;
+  }
+
+}
