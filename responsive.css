@@ -1,5 +1,13 @@
 @media all and  (max-width:1000px) {
 
+  header .logo{
+    padding:20px 20px 20px 40px;
+  }
+
+  header a{
+    padding:33px 10px;
+  }
+
   .main-page .contents{
     width: 44%;
 
